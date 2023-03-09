@@ -1,0 +1,48 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.form{ 
+    width: 25%;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+}
+
+.invalid #fullname {
+    border-color: red;
+    background-color: rgba(255, 0, 21, 0.123);
+}
+
+.invalid #email {
+    border-color: red;
+    background-color: rgba(255, 0, 21, 0.123);
+}
+
+.invalid #password {
+    border-color: red;
+    background-color: rgba(255, 0, 21, 0.123);
+}
+
+.invalid #password-confirm {
+    border-color: red;
+    background-color: rgba(255, 0, 21, 0.123);
+}
+
+
+.invalid .form-message {
+    color: red;
+}
